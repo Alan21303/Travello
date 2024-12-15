@@ -1,0 +1,99 @@
+{% extends 'admin/base.html' %}
+{% load static %}
+
+
+{% block content %}
+
+
+      <!-- partial -->
+      <div class="main-panel">
+        <div class="content-wrapper">
+          <div class="row">
+            <!-- <div class="col-lg-6 grid-margin"> -->
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Data Table</h4>
+                  <p class="card-description">                  </p>
+                  <div class="table-responsive">
+                    <table class="table table-hover">
+                      <thead>
+                        <tr>
+                          <th>Serial No:</th>
+                          <th>Title</th>
+                          <th>Description</th>
+                          <th>Image</th>
+                          <th>Amount</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <!-- <tr>
+                          <td>Jacob</td>
+                          <td>Photoshop</td>
+                          <td class="text-danger"> 28.76% <i class="ti-arrow-down"></i></td>
+                          <td><label class="badge badge-danger">Pending</label></td>
+                        </tr> -->
+                        <tr>
+                          <td>1</td>
+                          <td>Bali Beach Retreat</td>
+                          <td>Experience the serene beauty of Bali beaches with 5-star amenities.</td>
+                          <td><img src="https://via.placeholder.com/100" alt="Bali Beach" /></td>
+                          <td>$1200</td>
+                          <td><button class="btn btn-danger">Delete</button></td>
+                          <td><a href="admin_edit" class="btn btn-primary">Edit</a></td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>Swiss Alps Adventure</td>
+                          <td>Join a breathtaking adventure in the Swiss Alps with guided tours.</td>
+                          <td><img src="https://via.placeholder.com/100" alt="Swiss Alps" /></td>
+                          <td>$2500</td>
+                          <td><button class="btn btn-danger">Delete</button></td>
+                          <td><a href="admin_edit" class="btn btn-primary">Edit</a></td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td>Dubai Desert Safari</td>
+                          <td>Explore the golden dunes of Dubai with a luxury desert safari package.</td>
+                          <td><img src="https://via.placeholder.com/100" alt="Dubai Desert" /></td>
+                          <td>$800</td>
+                          <td><button class="btn btn-danger">Delete</button></td>
+                          <td><a href="admin_edit" class="btn btn-primary">Edit</a></td>
+                        </tr>
+                        <tr>
+                          <td>4</td>
+                          <td>Paris City Tour</td>
+                          <td>Discover the romance of Paris with a guided tour of iconic landmarks.</td>
+                          <td><img src="https://via.placeholder.com/100" alt="Paris City" /></td>
+                          <td>$1500</td>
+                          <td><button class="btn btn-danger">Delete</button></td>
+                          <td><a href="admin_edit" class="btn btn-primary">Edit</a></td>
+                        </tr>
+                        <tr>
+                          <td>5</td>
+                          <td>Amazon Rainforest Trek</td>
+                          <td>Embark on an unforgettable journey through the lush Amazon rainforest.</td>
+                          <td><img src="https://via.placeholder.com/100" alt="Amazon Rainforest" /></td>
+                          <td>$2000</td>
+                          <td><button class="btn btn-danger">Delete</button></td>
+                          <td><a href="admin_edit" class="btn btn-primary">Edit</a></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                <!-- </div> -->
+              </div>
+            </div>
+            
+            
+            
+          </div>
+        </div>
+       
+        
+        <!-- content-wrapper ends -->
+        <!-- partial:../../partials/_footer.html -->
+       
+
+
+{% endblock %}
