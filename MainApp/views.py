@@ -16,7 +16,7 @@ def admins(req):
     return render( req,"admin/index.html")
 
 def Admin_edit(req):
-    return render(req,"admin/index.html")
+    return render(req,"admin/pages/edit/basic_editfile.html")
 
 def Admin_add(req):
     return render(req,"admin/pages/forms/basic_elements.html")
